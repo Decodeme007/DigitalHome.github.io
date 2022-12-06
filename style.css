@@ -361,7 +361,7 @@ ul {
     #site-main .banner-area{
         background: var(--bg-cover) no-repeat top right !important;
         background-size: 80% !important;
-        margin-top:50px !important;
+        margin-top:30px !important;
     }    
 
     #site-main .banner-area .banner-title .title div span{
@@ -446,14 +446,14 @@ ul {
 
 #site-main .banner-area .banner-title{
     height: 95vh;
-    padding-top: 16rem;
+    padding-top: 10rem;
 }
 
 /* ------------------- /Banner Area Style ------------------------ */
 
 /* -------------------------Agency Area-------------------------- */
 #site-main .agency-area{
-    padding:10em 50px;
+    padding:7em 50px;
 }
 
 /* -------------------------/Agency Area-------------------------- */
