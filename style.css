@@ -351,6 +351,8 @@ ul {
     }
 }
 
+/* media query for max-width */
+/* for less than large screen */
 @media (max-width: 1024px){
     #site-main .banner-area{
         background: var(--bg-cover) no-repeat top right !important;
@@ -365,6 +367,14 @@ ul {
     }
 }
 
+/* for less than Medium screen */
+@media (max-width: 768px){
+    #site-main .life-area .grid-images{
+        display: none !important;
+    }
+}
+
+/* for less than Small screen */
 @media (max-width: 640px){
     .banner-area .banner-title{
         padding-top:150px !important;
@@ -456,7 +466,6 @@ ul {
 }
 
 #site-main .life-area .grid-images .item-one{
-    background: var(--text-gray);
     grid-column-start: 1;
     grid-column-end: 8;
     grid-row-start: 2;
