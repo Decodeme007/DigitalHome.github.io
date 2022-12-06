@@ -353,8 +353,9 @@ ul {
 
 @media (max-width: 1024px){
     #site-main .banner-area{
-        background: url("./assets/digital-marketing11.jpg") no-repeat top left !important;
-        background-size: cover;
+        background: var(--bg-cover) no-repeat top right !important;
+        background-size: 80% !important;
+        margin-top:50px !important;
     }    
 
     #site-main .banner-area .banner-title .title div span{
